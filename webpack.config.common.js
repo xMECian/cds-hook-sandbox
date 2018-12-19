@@ -150,7 +150,7 @@ const config = {
     ]),
     new webpack.NamedChunksPlugin(),
     new webpack.DefinePlugin({
-      'runtime.FHIR_URL': JSON.stringify(process.env.FHIR_URL || 'https://api.hspconsortium.org/cdshooksdstu2/open')
+      'runtime.FHIR_URL': JSON.stringify(process.env.FHIR_URL || 'https://r2.smarthealthit.org'),
     }),
   ],
 };
